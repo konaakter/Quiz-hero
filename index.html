@@ -24,18 +24,19 @@
     <!--- You don't need to change noChange.js file. It's fine-->
     <script src="./noChange.js" defer></script>
     <!-- You don't need to change noChange.js file. It's fine -  ai                     pojonto----------------------->
-
-     <script src="./tailwind.config.js" defer></script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              common: ["Rubik", "sans-serif"],
-            },
+    <script>
+          tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            common: ["Rubik", "sans-serif"],
           },
         },
-      };
+      },
+    };
+
     </script>
+
   </head>
   <body class="bg-white font-common">
     <!-- Header/Navbar section start -->
@@ -139,7 +140,7 @@
     >
       <!-- Question section start -->
       <div class="md:w-[70%] w-full">
-        <div class="duration-500" class="quizContainer"></div>
+        <div class="duration-500" id="quizContainer"></div>
       </div>
       <!-- Question section end -->
       <!-- Answer section start -->

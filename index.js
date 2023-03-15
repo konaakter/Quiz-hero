@@ -46,10 +46,20 @@ startQuiz.addEventListener("click", () => {
 // All quiz data fetched from json
 const loadQuiz = async () => {
   const res = await fetch("./data/quiz.json");
-  const data = await res.json;
+  const data = await res.json();
   quizData = data;
   displayQuiz(data);
 };
+
+
+/*const fetchRoomsData = async () => {
+  const data = await fetch(`ROOMS.json`);
+  const result = await data.json();
+  allRooms=result
+  displayRoomsData(result);
+  await fetch("./data/quiz.json");
+};*/
+
 
 // Displaying quiz on quiz page
 const displayQuiz = (data) => {
