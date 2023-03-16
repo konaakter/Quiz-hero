@@ -52,14 +52,6 @@ const loadQuiz = async () => {
 };
 
 
-/*const fetchRoomsData = async () => {
-  const data = await fetch(`ROOMS.json`);
-  const result = await data.json();
-  allRooms=result
-  displayRoomsData(result);
-  await fetch("./data/quiz.json");
-};*/
-
 
 // Displaying quiz on quiz page
 const displayQuiz = (data) => {
