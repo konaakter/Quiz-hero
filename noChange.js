@@ -1,4 +1,3 @@
-
 // এই পুরো ফাইলে কেও কোন কিছু পরিবর্তন করবেন না । এইখানে কোন Bug নেই ।
 
 // Handle Timer
@@ -64,8 +63,6 @@ const chooseQuiz = (index, givenAns) => {
   }
   displayAnswers(answers);
 };
-
-
 const displayAnswers = (data) => {
   // এই পুরো ফাইলে কেও কোন কিছু পরিবর্তন করবেন না । এইখানে কোন Bug নেই ।
   answersContainer.innerHTML = "";
