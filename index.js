@@ -193,3 +193,11 @@ document.querySelector("#submit").addEventListener("click", () => {
   }, 1500);
   window.scrollTo(0, 0);
 });
+
+
+/* new page bolg-------------------------------------------------------------------------*/
+document.getElementById('bolg-btn').addEventListener('click', function(){
+  window.location.href = 'blog.html';
+})
+
+
